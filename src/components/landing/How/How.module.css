@@ -1,0 +1,77 @@
+.how {
+  background: #eee;
+  padding: 6rem 1rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading {
+  font-size: 1.75rem;
+  font-family: var(--font-ppneue);
+  margin-bottom: 0.5rem;
+  text-transform: lowercase;
+}
+
+.description {
+  font-family: var(--font-sfmono);
+  font-size: 0.875rem;
+  margin-bottom: 3rem;
+  color: #444;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.card {
+  background: white;
+  border: 1px solid #aaa;
+  padding: 1.5rem;
+  width: 260px;
+  font-family: var(--font-sfmono);
+  font-size: 0.875rem;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.card h3 {
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin: 1rem 0 0.5rem;
+  text-transform: lowercase;
+}
+
+.disclaimer {
+  border: 1px solid black;
+  padding: 2rem;
+  font-family: var(--font-sfmono);
+  background: white;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.disclaimerLabel {
+  text-align: left;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.trust {
+  font-family: var(--font-ppneue);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  text-transform: lowercase;
+}
+
+.note {
+  font-size: 0.875rem;
+  color: #222;
+  line-height: 1.6;
+}

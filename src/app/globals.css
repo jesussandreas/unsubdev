@@ -1,15 +1,23 @@
+/* Fonts */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  font-family: var(--font-ppneue), sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+code,
+pre {
+  font-family: var(--font-sfmono), monospace;
 }
 
+/* Hide the Next.js dev overlay button */
+[data-nextjs-dialog] {
+  display: none !important;
+}
+
+#__next-dev-client-overlay {
+  display: none !important;
+}
+
+/* Global styles */
 html,
 body {
   max-width: 100vw;
@@ -17,8 +25,8 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: #000;
+  background: #ececec;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -35,8 +43,8 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.underline {
+  display: inline-block;
+  border-bottom: 3px solid black; /* adjust thickness */
+  line-height: 40px;
 }
