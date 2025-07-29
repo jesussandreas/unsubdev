@@ -48,3 +48,30 @@ a {
   border-bottom: 3px solid black; /* adjust thickness */
   line-height: 40px;
 }
+
+h1 {
+  font-family: var(--font-ppneue);
+  font-weight: 600;
+  font-size: 76px;
+  line-height: auto;
+}
+
+h2 {
+  font-family: var(--font-ppneue);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: auto;
+}
+
+p,
+.body-paragraph {
+  font-family: var(--font-sfmono);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: -2%;
+}
+
+.long-body-paragraph {
+  line-height: 26px;
+}
